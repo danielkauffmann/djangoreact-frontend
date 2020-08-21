@@ -1,17 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import ListComponent from './ListComponent'
 
-function Test(){
-    return <h1>Hello World!</h1>
-}
 
 ReactDOM.render(
   <React.StrictMode>
-      <Test />
-      <App />
+      {/* <App/> */}
+      <ListComponent />
   </React.StrictMode>,
   document.getElementById('root')
 );
